@@ -38,18 +38,4 @@ export const { useGetCryptoNewsQuery } = cryptoNewsApi;
 
 // FIXME: a1c3c7453b0f4e4d83b74b31f0d8c212
 
-// https://newsapi.org/v2/everything?q=Apple&from=2024-05-26&sortBy=popularity&apiKey=API_KEY
 
-// var url =
-//   "https://newsapi.org/v2/everything?" +
-//   "q=Apple&" +
-//   "from=2024-05-26&" +
-//   "sortBy=popularity&" +
-//   "apiKey=a1c3c7453b0f4e4d83b74b31f0d8c212";
-
-// var req = new Request(url);
-
-// fetch(req)
-//     .then(function(response) {
-//         console.log(response.json());
-//     })

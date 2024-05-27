@@ -377,3 +377,8 @@ width: 70%;
     padding: 20px;
     align-items: center;
 }
+.news-img {
+    width:70px;
+    height:70px;
+    border-radius:50%
+}
