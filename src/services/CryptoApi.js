@@ -24,7 +24,7 @@ export const cryptoApi = createApi({
   }),
 });
 // Redux toolkit provide a custom hook to fetch all data from api
-export const { useGetCryptosQuery, useGetCryptosDetailsQuery } = cryptoApi;
+export const { useGetCryptosQuery, useGetCryptoDetailsQuery } = cryptoApi;
 
 
 
