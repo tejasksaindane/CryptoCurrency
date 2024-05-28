@@ -14,10 +14,10 @@ const News = ({ simplified }) => {
   });
 
   const { data:cryptoData } = useGetCryptosQuery(10);
-  console.log("----------------Cryptos------------->", cryptoData?.data?.coins);
+  // console.log("----------------Cryptos------------->", cryptoData?.data?.coins);
 
   const globalNews = data?.articles;
-  console.log("--------value--------->", globalNews);
+  // console.log("--------value--------->", globalNews);
   if (isFetching) return "Loading...";
   return (
     <div>
@@ -45,7 +45,7 @@ const News = ({ simplified }) => {
         )}
         {globalNews?.map((news, i) => (
           <Col xs={24} sm={12} lg={8} key={i}>
-            <Card hoverbale className="news-card">
+            <Card hoverable className="news-card">
               <a href={news?.url} target="_blank" rel="noreferrer">
                 <div className="news-image-container">
                   <Title className="news-title" level={4}>
