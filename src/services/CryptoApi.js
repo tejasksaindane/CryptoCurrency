@@ -5,7 +5,7 @@ const cryptoApiHeaders = {
   "Api-Key": "coinranking6a88af4e76278cb5c7cd126383061011219b96f3847e44ad",
   // 'x-access-token': '53a0b0a7e4f2fa59519e4'
 };
-const baseUrl = "https://api.coinranking.com/v2";
+const baseUrl = "process.env.BASE_URL";
 const createRequest = (url) => ({ url, headers: cryptoApiHeaders });
 
 export const cryptoApi = createApi({
